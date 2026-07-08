@@ -17,10 +17,5 @@ Deep learning models that combine **fundus photos** and **OCT scans** of the sam
 ## Requirements
 `torch`, `torchvision`, `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `opencv-python`, `Pillow`, `shap`, `lime`, `scikit-image`
 
-## Usage
-1. Mount dataset (fundus + OCT images/CSVs) from Google Drive
-2. Run training cell to train & save a model
-3. Load saved `.pth` checkpoint for inference or explainability (Grad-CAM/LIME/SHAP)
-
 ## Dataset
-570 fundus+OCT image pairs, 217 patients, patient-level stratified split. Not included — see notebook for expected folder structure.
+570 fundus+OCT image pairs, 217 patients, patient-level stratified split
